@@ -1,0 +1,19 @@
+<h4>Contact List</h4>
+<table>
+    <tr><th>Title</th><th>Name</th><th>Body</th></tr>
+<% @contacts.each do |contact| %>
+    <tr data-id="<%= contact.id %>">
+        <td><%= contact.title %></td>
+        <td><%= contact.username %></td>
+        <td><%= contact.body %></td>
+    </tr>
+<% end %>
+</table>
+
+<h4>Add New</h4>
+<form method="post" action="/new">
+    Title :<input type="text" name="title"><br />
+    User Name :<input type="text" name="username"><br />
+    Body :<input type="text" name="body"><br />
+    <input type="submit" value="POST">
+</form>
