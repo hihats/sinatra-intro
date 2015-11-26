@@ -13,4 +13,9 @@ get '/' do
  'hello world'
 end
 ```
-WEBrick起動後、localhost:$PORTアクセスで画面確認可能
+WEBrick起動後
+```bash
+ruby main.rb
+```
+
+localhost:$PORTアクセスで画面確認可能
