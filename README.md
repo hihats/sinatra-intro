@@ -19,3 +19,14 @@ ruby main.rb
 ```
 
 localhost:$PORTアクセスで画面確認可能
+
+## Database
+import.sqlにDDL記述
+
+```bash
+sqlite3 dbname.db
+```
+```sql
+sqlite> .read import.sql
+```
+
