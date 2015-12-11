@@ -30,3 +30,6 @@ sqlite3 dbname.db
 sqlite> .read import.sql
 ```
 
+## View
+
+Using [Skelton.css](http://getskeleton.com/)
